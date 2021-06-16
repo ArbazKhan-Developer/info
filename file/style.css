@@ -1,0 +1,441 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    font-family: serif;
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    
+}
+#header-first{
+    height: 70vh;
+    width: 100%;
+    position: relative;
+    
+}
+#header-first::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right: 0;
+    background: linear-gradient(330deg, #16c9f6 55%,#fff 0%);
+    z-index: -1;
+    opacity: .06;
+
+}
+.navbar{
+    width: 100%;
+    height: 10vh;
+    position: relative;
+}
+.navbar::before{
+    content: '';
+    position: absolute;
+    background: #4458dc;
+    z-index: -2;
+}
+.image img{
+    height: 3.2rem;
+    width: 3.2rem;
+
+}
+
+#item-1{
+    margin-left: auto;
+    
+}
+#item-1 li a{
+    margin: 2rem;
+    font-family: 'rubik';
+    font-weight: bold;
+    position: relative;
+    color: white;
+}
+#item-1 li a:hover{
+    color: white;
+}
+#a{
+    color: white;
+}
+#item-1 li a::before{
+    content: '';
+    position: absolute;
+    top: 110%;
+    left: 0%;
+    width: 0;
+    height: 2px;
+    border-bottom: 2px solid white;
+    transition: all 0.4s linear;
+}
+#item-1 li a:hover:before{
+    width: 100%;
+}
+#home{
+    margin-top: 20rem;
+}
+#home h3{
+    font-weight: 500;
+    font-size: 3rem;
+    font-style: normal;
+    position: relative;
+}
+#home h3::after{
+    content: '';
+    width: 25rem;
+    height: .2rem;
+    position: absolute;
+    top: 60%;
+    left: 21%;
+    background: #000;
+}
+#home h1{
+    font-weight: 500;
+    font-size: 6rem;
+    font-style: normal;
+    font-family: 'Bebas Neue';
+}
+#home h5{
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-top: .5rem;
+    font-family: 'Bebas Neue';
+}
+#img1 img{
+    height: 25rem;
+    width: 25rem;
+    border-radius: 50%;
+}
+#btn1{
+    margin-top: 3.5rem;
+}
+#btn1 a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    
+
+}
+#viewWork{
+    margin-left: 2rem;
+    border: 2px solid #4458dc;
+    padding: .7rem 2rem .7rem 2rem;
+    border-radius: .5rem;
+    font-family: 'rubik';
+    font-weight: bold;
+}
+#viewWork:hover{
+    background-color: #4458dc;
+    color: white;
+    
+}
+#hireme{
+    border: 2px solid #4458dc;
+    padding: .7rem 2rem .7rem 2rem;
+    border-radius: .5rem;
+    background-color: #4458dc;
+    color: white;
+    font-family: serif;
+    font-weight: bold;
+    
+
+}
+#hireme:hover{
+    background-color: white;
+    color:black ;
+}
+.about_img img{
+    height: 30rem;
+    width: 34rem;
+    margin-top: 5rem;
+}
+#about{
+
+    width: 100%;
+    /* margin-top: 5rem; */
+    position: relative;
+
+}
+#about::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right: 0;
+    background: linear-gradient(40deg, #16c9f6 50%,#fff 0%);
+    z-index: -1;
+    opacity: .06;
+
+}
+#about h2{
+    text-transform: uppercase;
+    font-weight:bolder;
+    font-family: 'Rubik';
+    font-size: 2.7rem;
+}
+.para1{
+    opacity: .6;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    font-family: serif;
+    margin-top: 2rem;
+}
+#section-3{
+    width: 100%;
+    position: relative;
+    margin-top: 15rem;
+
+}
+#section-3::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right: 0;
+    /* background: linear-gradient(330deg, #16c9f6 55%,#fff 0%); */
+    z-index: -1;
+    opacity: .1;
+}
+#section-3 h2{
+    text-transform: uppercase;
+    font-family: 'rubik';
+    font-weight: bold;
+    font-size: 2.2rem;
+}
+.d-table{
+    border: 1px solid #4458dc;
+    height: 6rem;
+    width: 10rem;
+    transition: all .2s;
+    
+}
+.d-table:hover{
+    background-color: white;
+    transform: translateY(5px);
+}
+.tbl{
+    margin-top: 3rem;
+}
+.imgfix{
+    margin-top: 1.5rem;
+}
+.lage{
+    font-size: 5rem;
+    border: 2px dotted #4458dc;
+    font-weight: bolder;
+    color: #4458dc;
+    font-family: sans-serif;
+    width: 4.5rem;
+    height: 7rem;
+    
+
+
+}
+.smll{
+    font-family:'rubik';
+    margin-top: 2rem;
+    margin-left: 2rem;
+    width: 8rem;
+
+}
+.para{
+    margin-top: 2.5rem;
+    font-size: 1.5rem;
+    font-family: 'rubik';
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-left: auto;
+}
+.resume{
+    border-radius: 5px;
+    background-color: #4458dc;
+    color: white;
+    font-size: 1.3rem;
+    border: 2px solid #4458dc;  
+    text-decoration: none; 
+    margin-left: 1.5rem;
+}
+.resume:hover{
+    background: none;
+    color: #4458dc;
+    
+}
+.resume span{
+    text-decoration: none;
+    margin-left: .3rem;
+    font-family: 'rubik';
+    
+}
+
+.call-now span:nth-child(3){
+    margin-left: 5rem;
+}
+.call-now span{
+    margin-left: .6rem;
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    font-family: 'rubik';
+
+}
+.call-now i{
+    font-size: 1.7rem;
+    margin-top: 2rem;
+}
+
+ #contact{
+     margin-top: 15rem;
+    width: 100%;
+    position: relative;    
+}
+#contact::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right: 0;
+    background: linear-gradient(327deg, #16c9f6 50%,#fff 0%);
+    z-index: -1;
+    opacity: .06;
+}
+#contact h2{
+    font-family: 'rubik';
+    font-weight: bolder;
+    font-size: 2.7rem;
+
+}
+.contact_info{
+      margin-top: 5rem;
+}
+.info_item span{
+    margin-left: 1rem;
+    color: black;
+    text-decoration: none;
+    font-family: 'rubik';
+    font-size: 1.2rem;
+    opacity: .7;
+    
+}
+.info_item a{
+    text-decoration: none;
+}
+.info_item i{
+    font-size: 1.7rem;
+    color: black;
+    opacity: .7;
+    text-decoration: none;
+}
+#contactForm{
+    
+    margin-top: 4rem;
+}
+.form-control{
+
+
+    margin-top: 1rem;
+}
+.sendmssg{
+    font-family: 'rubik';
+    color: white;
+    border: 2px solid #4458dc;
+    background-color: #4458dc;
+    border-radius: 7px;
+    height: 3rem;
+    width: 8rem;
+   
+}
+#submitButton:hover{
+    transform: translateY(3px);
+}
+#submitButton{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 3rem;
+    transition: all .2s;
+}
+
+#message{
+    height: 9rem;
+}
+.footer-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-top: 2rem;
+    opacity: .7;
+}
+.footer_area{
+    margin-top: 22rem;
+}
+.footer_logo h2{
+    text-decoration: none;
+    color: black;
+    font-family: 'rubik';
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
+.footer_logo h4{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'rubik';
+
+}
+.footer_top{
+    display: flex;
+    flex-direction: column;
+}
+.footer_social{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: .7rem;
+    font-size: 2rem;
+    color: black;
+    opacity: .8;
+    
+}
+
+#project1 h1{
+    font-family: 'rubik';
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 2.3rem;
+}
+#project1 h2{
+    font-family: 'rubik';
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+#project1 p{
+     font-family: 'rubik';
+     opacity: .7;
+}
+#project1 a{
+    text-transform: uppercase;
+    font-family: 'rubik';
+    font-size: 1.2rem;
+}
+.card{
+    border-radius: 30px !important;
+    box-sizing: border-box !important;
+    overflow: hidden !important;
+    background-color: #e7eff0 !important;
+    border: .3px solid #e7eff0 !important;
+}
+
+
+
+
+/*----------------------- media query------------- */
+
+
